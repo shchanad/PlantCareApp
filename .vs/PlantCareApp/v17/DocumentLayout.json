@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\plantcareapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:plantcareapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\eventusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:eventusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\plantdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:plantdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\plantpassport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:plantpassport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\plantusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:plantusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\plantusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:plantusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\plantpassport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:plantpassport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\eventusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:eventusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\viewmodels\\plantcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:viewmodels\\plantcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\viewmodels\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:viewmodels\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\support\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:support\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\support\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:support\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|c:\\users\\s4ned\\uir\\sem_proj\\plantcareapp\\plantcareapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFBECA7D-CBC7-443D-9771-4B642D3A43ED}|PlantCareApp.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-14T20:37:49.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlantUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantUserControl.xaml",
+              "RelativeDocumentMoniker": "PlantUserControl.xaml",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantUserControl.xaml",
+              "RelativeToolTip": "PlantUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T20:50:15.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlantUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "PlantUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantUserControl.xaml.cs",
+              "RelativeToolTip": "PlantUserControl.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T20:50:19.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlantPassport.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantPassport.xaml.cs",
+              "RelativeDocumentMoniker": "PlantPassport.xaml.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantPassport.xaml.cs",
+              "RelativeToolTip": "PlantPassport.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:54:53.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\EventUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "EventUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\EventUserControl.xaml.cs",
+              "RelativeToolTip": "EventUserControl.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:45:00.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAAAPwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:42:56.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlantCareApp.csproj",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantCareApp.csproj",
+              "RelativeDocumentMoniker": "PlantCareApp.csproj",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantCareApp.csproj",
+              "RelativeToolTip": "PlantCareApp.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-04T21:25:20.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlantPassport.xaml",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantPassport.xaml",
+              "RelativeDocumentMoniker": "PlantPassport.xaml",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantPassport.xaml",
+              "RelativeToolTip": "PlantPassport.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T23:53:00.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlantDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantDatabase.cs",
+              "RelativeDocumentMoniker": "PlantDatabase.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\PlantDatabase.cs",
+              "RelativeToolTip": "PlantDatabase.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:22:46.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\EventUserControl.xaml",
+              "RelativeDocumentMoniker": "EventUserControl.xaml",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\EventUserControl.xaml",
+              "RelativeToolTip": "EventUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T13:41:08.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:10:42.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T18:19:58.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-02T11:48:48.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TimerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\TimerViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TimerViewModel.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\TimerViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TimerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:21:42.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlantCardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\PlantCardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PlantCardViewModel.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\PlantCardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PlantCardViewModel.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAYwCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:40:05.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EventViewModel.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\ViewModels\\EventViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EventViewModel.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:13:01.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Support\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Support\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Support\\ViewModelBase.cs",
+              "RelativeToolTip": "Support\\ViewModelBase.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:36:54.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Support\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Support\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Support\\RelayCommand.cs",
+              "RelativeToolTip": "Support\\RelayCommand.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:46:46.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\s4ned\\UIR\\SEM_PROJ\\PlantCareApp\\PlantCareApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T11:48:46.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ViewState": "AgIAAKgBAAAAAAAAAAAYwLUBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T00:17:23.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SafeFileHandle.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs",
+              "ToolTip": "C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAADgvx8BAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T23:42:17.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Storyboard.cs",
+              "DocumentMoniker": "C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs",
+              "ToolTip": "C:\\Users\\s4ned\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cf51f86156b71470faaa010e7833f88c34cb8003216bd1fe11832227fa184745\\Storyboard.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAWwEgBAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T07:06:41.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

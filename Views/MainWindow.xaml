@@ -1,0 +1,269 @@
+﻿<Window x:Class="PlantCareApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlantCareApp"
+        xmlns:viewModels="clr-namespace:PlantCareApp.ViewModels"
+      
+        mc:Ignorable="d"
+        Title="Plant Care" Height="700" Width="1115">
+
+    <Window.DataContext>
+        <viewModels:MainViewModel/>
+    </Window.DataContext>
+
+    <Window.Background>
+        <ImageBrush ImageSource="../Images/background2.jpg" Stretch="UniformToFill" Opacity="0.3"/>
+    </Window.Background>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="73"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" MinHeight="143.04"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="816*"/>
+            <ColumnDefinition Width="299*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Name -->
+        <TextBlock Grid.Column="0"
+                   Text="Plant Care" FontSize="40"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" Height="53" Width="208" Margin="416,0,0,0"/>
+
+        <!-- List With Plant Cards -->
+        <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource FrameBorderStyle}" Margin="10,10,10,10">
+            <DockPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,10,10">
+                <DockPanel DockPanel.Dock="Top" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+                    <TextBlock Text="My Plants"  Margin="0,0,0,10" 
+                           Height="34" Width="126" DockPanel.Dock="Left"
+                            FontSize="26" Foreground="SeaGreen" />
+
+
+                    <Button Command="{Binding AddPlantCommand}" x:Name="AddPlantButton" Margin="0,0,10,10" Height="44" Width="98" DockPanel.Dock="Right"
+                            Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Right">
+                        <Image Source="/Images/plus.png" Stretch="Uniform" Height="30"/>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="Border" Style="{StaticResource ButtonBorderStyle}">
+                                    <ContentPresenter x:Name="ContentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Border" Property="BorderBrush" Value="White"/>
+                                        <Setter TargetName="ContentPresenter" Property="Opacity" Value="0.5"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </DockPanel>
+
+                <Border BorderBrush="Transparent" Margin="0,0,0,10">
+                   
+                    <Border Style="{StaticResource FrameBorderStyle}" CornerRadius="5">
+                        <ScrollViewer VerticalScrollBarVisibility="Hidden">
+                            <ItemsControl ItemsSource="{Binding PlantCards}" Opacity="0.5">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapPanel Orientation="Horizontal" Margin="20,0,0,0"/>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.Template>
+                                    <ControlTemplate TargetType="ItemsControl">
+
+                                        <Grid>
+                                            <Grid.Background>
+                                                <LinearGradientBrush x:Name="SharedGradientBrush" StartPoint="0,0" EndPoint="1,1" Opacity="0.5">
+                                                    <GradientStop Color="#7F00FF59" Offset="0" x:Name="GradientStop1"/>
+                                                    <GradientStop Color= "#B03088BA" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Grid.Background>
+
+                                            <Grid.Triggers>
+                                                <EventTrigger RoutedEvent="Grid.Loaded">
+                                                    <BeginStoryboard>
+                                                        <Storyboard>
+                                                            <DoubleAnimation 
+                                                                Storyboard.TargetName="GradientStop1" 
+                                                                Storyboard.TargetProperty="Offset" 
+                                                                From="0" To="1" 
+                                                                Duration="0:0:2" 
+                                                                AutoReverse="True" 
+                                                                RepeatBehavior="Forever"/>
+                                                        </Storyboard>
+                                                    </BeginStoryboard>
+                                                </EventTrigger>
+                                            </Grid.Triggers>
+
+                                            <ItemsPresenter/>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </ItemsControl.Template>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <local:PlantUserControl PlantImage="{Binding PlantImageBrush}" 
+                                CommonName="{Binding CommonName}"/>
+
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+
+
+                            </ItemsControl>
+                        </ScrollViewer>
+                    </Border>
+                </Border>
+            </DockPanel>
+        </Border>
+
+        <!-- Upcoming Events -->
+        <Border Grid.Row="1" Grid.Column="1"  Style="{StaticResource FrameBorderStyle}" Margin="10,10,10,10">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Upcoming events" Grid.Row="0" Grid.Column="0"
+                   Margin="0,0,0,0" FontSize="16"
+                   HorizontalAlignment="Left"/>
+
+                <Grid Margin="0,5,0,0" Grid.Row="1" Grid.Column="0">
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden">
+                        <ItemsControl ItemsSource="{Binding Events}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <local:EventUserControl/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+
+                            <ItemsControl.Template>
+                                <ControlTemplate TargetType="ItemsControl">
+                                    <Border Style="{StaticResource FrameBorderStyle}" CornerRadius="5">
+                                        <Grid>
+                                            <Grid.Background>
+                                                <LinearGradientBrush x:Name="SharedGradientBrush" StartPoint="0,0" EndPoint="1,1" Opacity="0.5">
+                                                    <GradientStop Color="#4C00FF59" Offset="0" x:Name="GradientStop1"/>
+                                                    <GradientStop Color= "#4C3088BA" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Grid.Background>
+
+                                            <Grid.Triggers>
+                                                <EventTrigger RoutedEvent="Grid.Loaded">
+                                                    <BeginStoryboard>
+                                                        <Storyboard>
+                                                            <DoubleAnimation 
+                                                                Storyboard.TargetName="GradientStop1" 
+                                                                Storyboard.TargetProperty="Offset" 
+                                                                From="0" To="1" 
+                                                                Duration="0:0:2" 
+                                                                AutoReverse="True" 
+                                                                RepeatBehavior="Forever"/>
+                                                        </Storyboard>
+                                                    </BeginStoryboard>
+                                                </EventTrigger>
+                                            </Grid.Triggers>
+
+                                            <ItemsPresenter/>
+                                        </Grid>
+                                    </Border>
+                                </ControlTemplate>
+                            </ItemsControl.Template>
+                        </ItemsControl>
+                    </ScrollViewer>
+
+                </Grid>
+            </Grid>
+        </Border>
+
+        <!-- Advice -->
+        <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource FrameBorderStyle}" Margin="10,5,10,10">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Advice" Grid.Row="0" Grid.Column="0" FontSize="20" Foreground="Gainsboro" 
+                   HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,5"/>
+
+                <Button x:Name="PreviousAdviceButton" Command="{Binding PreviousAdviceCommand}" 
+                Background="Transparent" BorderBrush="Transparent"
+                VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Margin="2,0,0,0" Grid.Row="1" Grid.Column="0" Width="59" Height="66">
+                    <Image Source="/Images/previous.png" Stretch="Uniform"/>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="Border" Style="{StaticResource ButtonBorderStyle}">
+                                <ContentPresenter x:Name="ContentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="White"/>
+                                    <Setter TargetName="ContentPresenter" Property="Opacity" Value="0.5"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <TextBlock Text="{Binding CurrentAdvice}" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" FontSize="16" Foreground="SeaGreen" 
+                   TextAlignment="Center" VerticalAlignment="Center" Margin="50,0,50,0"/>
+
+
+                <Button x:Name="NextAdviceButton" Command="{Binding NextAdviceCommand}" 
+                Background="Transparent" BorderBrush="Transparent"
+                VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Margin="2,0,0,0" Grid.Row="1" Grid.Column="2" Width="59" Height="66">
+                    <Image Source="/Images/next.png" Stretch="Uniform"/>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="Border" Style="{StaticResource ButtonBorderStyle}">
+                                <ContentPresenter x:Name="ContentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="White"/>
+                                    <Setter TargetName="ContentPresenter" Property="Opacity" Value="0.5"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </Border>
+
+    </Grid>
+
+
+
+</Window>

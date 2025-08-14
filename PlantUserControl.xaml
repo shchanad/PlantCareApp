@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="PlantCareApp.PlantUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PlantCareApp"
+             mc:Ignorable="d" 
+             Width="180" Height="200">
+    
+        <Grid>
+
+            <Button x:Name="PlantButton" HorizontalAlignment="Left" 
+            Height="200" Width="180" 
+            VerticalAlignment="Top" 
+            Background="{Binding PlantImage, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            Command="{Binding DataContext.SetSelectedPlantCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+            CommandParameter="{Binding}"
+            >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Border"  
+                                BorderBrush="Black" BorderThickness="2" 
+                                Background="{TemplateBinding Background}" CornerRadius="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+                <Border Background="#B2FFFFFF" Width="158" Height="32" 
+                Margin="0,0,0,-150" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="16"
+                Text="{Binding CommonName}" Foreground="Black" TextAlignment="Center" VerticalAlignment="Center"/>
+                </Border>
+
+            </Button>
+
+        </Grid>
+    
+</UserControl>
